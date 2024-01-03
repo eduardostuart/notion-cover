@@ -1,0 +1,23 @@
+{
+  "name": "notion-cover",
+  "version": "1.0.0",
+  "description": "Update Notion page cover with unsplash images",
+  "main": "index.mjs",
+  "scripts": {
+    "update-cover": "node ./index.mjs"
+  },
+  "keywords": [
+    "notion",
+    "cover",
+    "notion-api",
+    "unsplash"
+  ],
+  "author": "Eduardo Stuart <e@s.tuart.me>",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.2.14"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
