@@ -44,6 +44,6 @@ export async function getImageUrl(
     quality: 80,
   }
 ) {
-  const imageUrl = await getRandomImageUrl(options.collections.join(","));
+  const imageUrl = await getRandomImageUrl(options.collections);
   return `${imageUrl}&w=${options.width}&h=${options.height}&fit=${options.fit}&q=${options.quality}`;
 }
