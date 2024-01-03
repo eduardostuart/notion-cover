@@ -1,6 +1,6 @@
 # Notion cover
 
-> Notion cover is a a tool to update your notion cover image using GitHub actions and Unsplash API.
+> A tool to update your notion page cover image using GitHub actions and Unsplash API.
 
 ## Requirements
 
