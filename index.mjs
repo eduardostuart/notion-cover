@@ -6,8 +6,7 @@ const notion = new Client({ auth: notionToken });
 
 (async () => {
   const image = await getImageUrl({ collections: unsplashCollections });
-
-  const response = await notion.pages.update({
+  await notion.pages.update({
     page_id: notionPageId,
     cover: {
       type: "external",
@@ -16,6 +15,5 @@ const notion = new Client({ auth: notionToken });
       },
     },
   });
-
-  console.log({ response });
+  console.log("Done!");
 })();
