@@ -1,6 +1,6 @@
 # Notion cover
 
-> A tool to update your notion page cover image using GitHub actions and Unsplash API.
+> A tool to update your [notion page cover image](https://sweltering-pan-ea0.notion.site/Public-Notion-Cover-page-96417c47554f4467b7c473be9a4c37cf) using GitHub actions and Unsplash API.
 
 ## Requirements
 
